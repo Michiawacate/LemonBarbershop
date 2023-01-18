@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Contacto - Barbería Limón</title>
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href= "style.css">
+
+</head>
+<body>
+	<header>
+	<div class="caja">
+		<h1><img src="barber/lemon4.jpg" width=20% height=20% alt="Logo de la barberia Lemon"></h1>
+		<nav>
+		<ul>
+			<li><a href="barbershop.html">Inicio /</a></li>
+			<li><a href="proudctos.html">Productos /</a></li>
+			<li><a href="contacto.html">Contacto y agenda /</a></li>
+			<li><a href="https://www.youtube.com/watch?v=pd6dCUiqo2w"> LEMON</a></li>
+		</ul>
+		</nav>
+	</div>
+		
+	</header>
+    <main>
+     <form> 
+        <label for="nombreapellido">Nombre y apellido</label>
+        <input type="text" id="nombreapellido" class="input-padron" required placeholder="Ingrese su nombre por favor">
+
+
+        <label for="correo">Correo electrónico</label>
+        <input type="email" id="correo" class="input-padron" required placeholder="email@dominio.com">
+
+        <label for="telcel">Celular</label>
+        <input type="tel" id="telcel" class="input-padron" required placeholder="8 digitos"> 
+
+		<label for="Mensajito">Mensajito o solicitudes especiales</label>
+		<textarea cols="70" rows="10" id="mensaje" class="input-padron"></textarea>
+<fieldset>
+		<legend> ¿Qué metodo de contacto prefieres?</legend>
+
+		<label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email"></input>email</label>
+
+		<label for="radio-teléfono"><input type="radio" name="contacto" value="teléfono" id="radio-teléfono"></input>teléfono</label>
+
+		<label for="radio-wazap"><input type="radio" name="contacto" value="wazap" id="radio-wazap" checked></input>wazap</label>     
+</fieldset>
+<fieldset>
+<legend> ¿Cuál es tu horario de preferencia?</legend>
+<select required>
+	<option>Mañana</option>
+	<option>Tarde</option>
+	<option>Noche</option>
+</select>
+<label class="checkbox"><input type="checkbox" checked> ¿Quieres novedades y promos por mensaje?</input></label>
+<input type="submit" value="Enviar uwu"  class="enviar">
+    </form>
+	<table>
+		<thead>
+			<tr>
+			<th> Día</th>
+			<th> Horario</th>
+		</tr>
+		</thead>
+		<tbody>
+		<tr>
+			<td> Lunes</td>
+			<td> Cerrado</td>
+		</tr>
+		<tr>
+			<td> Lunes a  viernes</td>
+			<td> 10 AM a 7 PM</td>
+		</tr>
+		<tr>
+			<td> Sabado y Domingo</td>
+			<td> 11AM a 8PM</td>
+		</tr>
+	</tbody>
+	</table>
+</fieldset>
+    </main>
+	<footer>
+		<img src="barber/lemon1.png"  width="10%" height="10%" alt="Logo de la barberia Lemon">
+		<p class="copyright"> &copy; Copyright Barberia Limón - 2022 </p>
+	</footer>
+</body>
+</html>
